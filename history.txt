@@ -1,0 +1,102 @@
+   10  cd git_practice/
+   11  git init -b main
+   12  git add .
+   13  git commit -m "first commit"
+   14  git remote add origin https://github.com/tolsen25/git_practice.git
+   17  cd Documents/Stat386/git_practice/
+   18  git remote add origin git@github.com:tolsen25/git_practice.git
+   19  git branch -M main
+   20  git push -u origin main
+   26  git status
+   35  git status
+   39  git status
+   40  git add .
+   41  git commit . -m "added data exploration"
+   42  git push .
+   46  git status
+   49  git push
+   50  git status
+   51  git add .
+   52  git commit -m "data cleaning and wrangling file"
+   53  git push
+   57  git status
+   58  git add .
+   59  git push
+   60  git push --set-upstream origin main
+   61  git pull
+   62  git push --set-upstream origin main
+   63  git push origin main
+   67  cd git_practice/
+   68  git status
+   71  git status
+   72  git add .
+   73  git commit -m "test change"
+   74  git push
+   82  cd git_practice/
+   87  git status
+   88  git add .
+   89  git push
+   94  git status
+   95  git add .
+   96  git commit -m "create new files"
+   97  git status
+   98  git log
+  101  git status
+  102  git add file1.txt
+  103  git commit -m "updating file1"
+  104  git status
+  105  git add file2.txt
+  106  git commit -m "updating file2.txt"
+  107  git push
+  111  git add .
+  112  git commit 
+  113  touch .gitignore
+  114  git add .
+  115  git commit
+  116  git commit -m "added a .gitignore"
+  117  git statues
+  118  git status
+  119  nano .gitignore
+  121  git status
+  124  git status
+  125  nano .gitignore
+  126  git status
+  127  git add . 
+  128  git commit -m "updated .gitignore"
+  129  git branch features
+  130  git status
+  131  git switch features
+  132  git log
+  134  git add .
+  135  git commit -m "add empty file"
+  137  git add .
+  138  git commit -m "added text"
+  139  git switch main
+  143  git add .
+  144  git commit -m "adding some text"
+  145  git merge 
+  146  git merge features
+  147  git log
+  149  git add .
+  150  git commit -m "merge conflict step"
+  151  git switch features
+  153  git add .
+  154  git commit -m "added text:
+  155  git switch main
+  156  git merge features
+  159  git branch -d features
+  160  git push
+  164  git clone git@github.com:tolsen25/git-practice-bradenmcritchfield.git
+  165  git branch feature-tolsen25
+  167  cd git-practice-bradenmcritchfield/
+  168  git status
+  169  git branch feature-tolsen25
+  172  git add .
+  173  git commit -m "just win baby"
+  174  git push origin feature-tolsen25
+  175  git push
+  176  git pull
+  180  cd git_practice/
+  182  git pull
+  186  git log --oneline > gitlog.txt
+  187  history | grep git > history.txt
